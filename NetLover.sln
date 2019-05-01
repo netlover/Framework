@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28822.285
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-NetLover.Core", "01-NetLover.Core", "{90E97FF6-23A3-49F5-B2D5-9188BDC6CE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-NetLover.Tools", "02-NetLover.Tools", "{516F615F-5F53-4FC9-8C10-EE6C7DCCF2DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-NetLover.MiddleWare", "03-NetLover.MiddleWare", "{470422DE-6941-4AAC-8429-78E685197D7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-NetLover.Extensions", "04-NetLover.Extensions", "{851D83D0-D8E6-4682-9992-1FAAD56506E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-NetLover.Data", "05-NetLover.Data", "{7287E1B6-C764-45EA-B241-18F7CE3ED609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-NetLover.NoSQL", "06-NetLover.NoSQL", "{FC95A4FC-C660-4B42-9CB4-1CC7DAA7971F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-NetLover.Cache", "07-NetLover.Cache", "{3995FD6B-6930-4EBA-A801-DACF9BCFA5AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-NetLover.File", "08-NetLover.File", "{1663B202-7C06-435F-8A22-D4F685E669EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-NetLover.Container", "09-NetLover.Container", "{81E228DA-F3BA-48C4-9862-ABACAC953C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-NetLover.Web", "10-NetLover.Web", "{FA606DB9-6400-45B2-931A-B1BDF03977AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLover.Face.Czkem", "src\02-NetLover.Tools\NetLover.Face.Czkem\NetLover.Face.Czkem.csproj", "{C993F2DC-EADE-440A-9FF2-9BFC7D672750}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLover.Finger.Czkem", "src\02-NetLover.Tools\NetLover.Finger.Czkem\NetLover.Finger.Czkem.csproj", "{262D6FA5-534E-4D3E-AFA5-0DC44547490B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLover.Logger.Log4Net", "src\02-NetLover.Tools\NetLover.Logger.Log4Net\NetLover.Logger.Log4Net.csproj", "{F2191BFF-AD43-4EF9-A7A9-D1AFD64433ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLover.Logger.NLog", "src\02-NetLover.Tools\NetLover.Logger.NLog\NetLover.Logger.NLog.csproj", "{CB8496D7-D9E3-4A40-82D0-3C6878CA125D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLover", "src\01-NetLover.Core\NetLover\NetLover.csproj", "{121B40BD-CB52-4B07-B479-170338283F71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Documents", "00-Documents", "{915AE1DC-4714-48F9-BFE7-8BE96104C75F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C993F2DC-EADE-440A-9FF2-9BFC7D672750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C993F2DC-EADE-440A-9FF2-9BFC7D672750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C993F2DC-EADE-440A-9FF2-9BFC7D672750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C993F2DC-EADE-440A-9FF2-9BFC7D672750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262D6FA5-534E-4D3E-AFA5-0DC44547490B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262D6FA5-534E-4D3E-AFA5-0DC44547490B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262D6FA5-534E-4D3E-AFA5-0DC44547490B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262D6FA5-534E-4D3E-AFA5-0DC44547490B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2191BFF-AD43-4EF9-A7A9-D1AFD64433ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2191BFF-AD43-4EF9-A7A9-D1AFD64433ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2191BFF-AD43-4EF9-A7A9-D1AFD64433ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2191BFF-AD43-4EF9-A7A9-D1AFD64433ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8496D7-D9E3-4A40-82D0-3C6878CA125D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8496D7-D9E3-4A40-82D0-3C6878CA125D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8496D7-D9E3-4A40-82D0-3C6878CA125D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8496D7-D9E3-4A40-82D0-3C6878CA125D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121B40BD-CB52-4B07-B479-170338283F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121B40BD-CB52-4B07-B479-170338283F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121B40BD-CB52-4B07-B479-170338283F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121B40BD-CB52-4B07-B479-170338283F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C993F2DC-EADE-440A-9FF2-9BFC7D672750} = {516F615F-5F53-4FC9-8C10-EE6C7DCCF2DE}
+		{262D6FA5-534E-4D3E-AFA5-0DC44547490B} = {516F615F-5F53-4FC9-8C10-EE6C7DCCF2DE}
+		{F2191BFF-AD43-4EF9-A7A9-D1AFD64433ED} = {516F615F-5F53-4FC9-8C10-EE6C7DCCF2DE}
+		{CB8496D7-D9E3-4A40-82D0-3C6878CA125D} = {516F615F-5F53-4FC9-8C10-EE6C7DCCF2DE}
+		{121B40BD-CB52-4B07-B479-170338283F71} = {90E97FF6-23A3-49F5-B2D5-9188BDC6CE34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DDC72A6-29C0-4986-870F-14784DB37E7A}
+	EndGlobalSection
+EndGlobal
