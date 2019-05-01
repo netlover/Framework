@@ -34,6 +34,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLover", "src\01-NetLover.Core\NetLover\NetLover.csproj", "{121B40BD-CB52-4B07-B479-170338283F71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Documents", "00-Documents", "{915AE1DC-4714-48F9-BFE7-8BE96104C75F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
